@@ -8,6 +8,7 @@ import { IconFieldModule } from 'primeng/iconfield';
 import { InputIconModule } from 'primeng/inputicon';
 import { DividerModule } from 'primeng/divider';
 import { ToggleButtonModule } from 'primeng/togglebutton';
+import { RatingModule } from 'primeng/rating';
 
 @Component({
     selector: 'app-home',
@@ -24,6 +25,7 @@ import { ToggleButtonModule } from 'primeng/togglebutton';
         InputIconModule,
         DividerModule,
         ToggleButtonModule,
+        RatingModule,
     ],
 })
 export class HomeComponent {

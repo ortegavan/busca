@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Borel&display=swap");
-@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/themes/lara-light-teal/theme.css";
 @import "primeng/resources/primeng.css";
 @import "primeicons/primeicons.css";
 
@@ -8,7 +8,8 @@ html {
 }
 
 html,
-body {
+body,
+p {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,13 +17,21 @@ body {
 
 body {
     background-color: #f8f8f8;
-    color: #000;
+    color: #4b5563;
+}
+
+h3 {
+    margin: 0 0 16px 0;
+}
+
+h4 {
+    margin: 8px 0;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    height: 100vh; /* Define a altura total da tela */
+    height: 100vh;
 }
 
 .header {
@@ -32,7 +41,7 @@ body {
 
 .content {
     display: flex;
-    flex: 1; /* Ocupa todo o espaço restante na direção do eixo principal (vertical) */
+    flex: 1;
 }
 
 .box {
@@ -48,6 +57,36 @@ body {
 }
 
 .main {
-    flex: 1; /* Ocupa todo o espaço restante na direção do eixo principal (horizontal) */
+    flex: 1;
     padding: var(--spacing);
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing);
+}
+
+.card {
+    width: calc(33% - var(--spacing));
+    display: flex;
+    flex-direction: column;
+    margin-bottom: var(--spacing);
+}
+
+.card:hover {
+    cursor: pointer;
+    color: #000;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+    border-radius: 4px;
+}
+
+.card img:hover {
+    opacity: 0.9;
 }
