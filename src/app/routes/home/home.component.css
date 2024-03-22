@@ -1,0 +1,13 @@
+.checkbox {
+    margin: 16px 0;
+}
+
+.input-text {
+    width: 100%;
+}
+
+.tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}

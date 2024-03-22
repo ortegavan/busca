@@ -3,7 +3,27 @@
         <app-header />
     </header>
     <section class="sidebar box">
-        sidebar aqui
+        <h3>Busca</h3>
+        <p-iconField iconPosition="left">
+            <p-inputIcon styleClass="pi pi-search" />
+            <input type="text" class="input-text" pInputText placeholder="Pesquisar..." />
+        </p-iconField>
+
+        <p-divider></p-divider>
+
+        <h3>Categorias</h3>
+        <div *ngFor="let category of categories" class="checkbox">
+            <p-checkbox [label]="category" name="group" [value]="category"></p-checkbox>
+        </div>
+
+        <p-divider></p-divider>
+
+        <h3>Tags</h3>
+        <div class="tags">
+            @for (tag of tags; track $index) {
+            <p-toggleButton [onLabel]="tag" [offLabel]="tag"></p-toggleButton>
+            }
+        </div>
     </section>
     <main class="main box">
         main aqui
