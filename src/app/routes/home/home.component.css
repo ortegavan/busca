@@ -11,3 +11,10 @@
     gap: 8px;
     flex-wrap: wrap;
 }
+
+.paginator {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
