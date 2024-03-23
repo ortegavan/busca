@@ -1,0 +1,505 @@
+[
+    {
+        "id": 1,
+        "title": "Frango Assado com Ervas",
+        "description": "Um delicioso frango assado com uma crosta dourada, temperado com uma seleção de ervas finas para um sabor incomparável.",
+        "image": "2149100098.jpg",
+        "ingredients": [
+            "1 frango inteiro",
+            "2 colheres de sopa de manteiga",
+            "1 ramo de alecrim",
+            "1 ramo de tomilho",
+            "Sal",
+            "Pimenta preta"
+        ],
+        "steps": [
+            "Preaqueça o forno a 200°C.",
+            "Esfregue o frango com manteiga e tempere com as ervas, sal e pimenta.",
+            "Asse por 1h30 ou até a pele estar dourada e crocante.",
+            "Deixe descansar por 10 minutos antes de servir."
+        ],
+        "tags": [2, 3],
+        "category": [2],
+        "time": 100,
+        "serves": 4,
+        "difficulty": 2,
+        "rating": 4.7
+    },
+    {
+        "id": 2,
+        "title": "Salada Caprese",
+        "description": "Uma salada clássica italiana, leve e refrescante, perfeita para o verão. Feita com tomates maduros, mozzarella fresca e manjericão.",
+        "image": "15949.jpg",
+        "ingredients": [
+            "3 tomates grandes",
+            "250g de mozzarella de búfala",
+            "Folhas de manjericão",
+            "Sal",
+            "Pimenta preta",
+            "Azeite de oliva extra virgem"
+        ],
+        "steps": [
+            "Corte os tomates e a mozzarella em rodelas.",
+            "Arrume as rodelas em um prato, alternando tomate e mozzarella.",
+            "Adicione as folhas de manjericão.",
+            "Tempere com sal, pimenta e regue com azeite."
+        ],
+        "tags": [1, 2, 4],
+        "category": [5],
+        "time": 15,
+        "serves": 2,
+        "difficulty": 1,
+        "rating": 4.9
+    },
+    {
+        "id": 3,
+        "title": "Spaghetti Carbonara",
+        "description": "Um prato clássico da cozinha italiana, este spaghetti é feito com ingredientes simples mas traz um sabor rico e reconfortante.",
+        "image": "81793.jpg",
+        "ingredients": [
+            "400g de spaghetti",
+            "150g de pancetta",
+            "2 ovos grandes",
+            "1/2 xícara de queijo Pecorino Romano ralado",
+            "Pimenta preta"
+        ],
+        "steps": [
+            "Cozinhe o spaghetti até ficar al dente.",
+            "Frite a pancetta até que esteja crocante.",
+            "Bata os ovos com o queijo e pimenta.",
+            "Misture o spaghetti quente com a pancetta e a mistura de ovos.",
+            "Sirva imediatamente."
+        ],
+        "tags": [3],
+        "category": [6],
+        "time": 30,
+        "serves": 4,
+        "difficulty": 2,
+        "rating": 4.8
+    },
+    {
+        "id": 4,
+        "title": "Panquecas de Banana",
+        "description": "Panquecas fofinhas com pedaços de banana e uma leve camada de mel.",
+        "image": "1474.jpg",
+        "ingredients": [
+            "2 bananas maduras",
+            "1 xícara de farinha de trigo",
+            "1 ovo",
+            "1 colher de chá de fermento em pó",
+            "Mel para servir"
+        ],
+        "steps": [
+            "Preparar o ingrediente principal 1.",
+            "Misturar com o ingrediente secundário 1.",
+            "Adicionar especiaria 1 e tempero 1.",
+            "Cozinhar até ficar pronto."
+        ],
+        "tags": [1, 4],
+        "category": [4],
+        "time": 43,
+        "serves": 4,
+        "difficulty": 1,
+        "rating": 3.1
+    },
+    {
+        "id": 5,
+        "title": "Salada Mediterrânea",
+        "description": "Uma salada fresca com tomate, pepino, azeitonas e queijo feta, temperada com orégano.",
+        "image": "2148515386.jpg",
+        "ingredients": [
+            "2 tomates",
+            "1 pepino",
+            "200g de queijo feta",
+            "Azeitonas pretas",
+            "Orégano e azeite de oliva"
+        ],
+        "steps": [
+            "Preparar o ingrediente principal 2.",
+            "Misturar com o ingrediente secundário 2.",
+            "Adicionar especiaria 2 e tempero 2.",
+            "Cozinhar até ficar pronto."
+        ],
+        "tags": [4, 1],
+        "category": [4],
+        "time": 27,
+        "serves": 4,
+        "difficulty": 1,
+        "rating": 4.9
+    },
+    {
+        "id": 6,
+        "title": "Sopa de Lentilha",
+        "description": "Uma sopa reconfortante de lentilhas com cenoura, aipo e especiarias, perfeita para os dias frios.",
+        "image": "30217.jpg",
+        "ingredients": [
+            "1 xícara de lentilhas",
+            "1 cenoura",
+            "1 talo de aipo",
+            "1 cebola",
+            "2 dentes de alho",
+            "1 folha de louro"
+        ],
+        "steps": [
+            "Preparar o ingrediente principal 3.",
+            "Misturar com o ingrediente secundário 3.",
+            "Adicionar especiaria 3 e tempero 3.",
+            "Cozinhar até ficar pronto."
+        ],
+        "tags": [2, 4],
+        "category": [1],
+        "time": 65,
+        "serves": 3,
+        "difficulty": 3,
+        "rating": 3.3
+    },
+    {
+        "id": 7,
+        "title": "Risoto de Cogumelos",
+        "description": "Risoto cremoso com cogumelos variados, alho poró e um toque de vinho branco.",
+        "image": "10223.jpg",
+        "ingredients": [
+            "1 xícara de arroz arbóreo",
+            "200g de cogumelos variados",
+            "1 alho poró",
+            "1/2 xícara de vinho branco",
+            "Caldo de legumes"
+        ],
+        "steps": [
+            "Preparar o ingrediente principal 4.",
+            "Misturar com o ingrediente secundário 4.",
+            "Adicionar especiaria 4 e tempero 4.",
+            "Cozinhar até ficar pronto."
+        ],
+        "tags": [4, 1],
+        "category": [7],
+        "time": 24,
+        "serves": 3,
+        "difficulty": 3,
+        "rating": 3.2
+    },
+    {
+        "id": 8,
+        "title": "Tacos de Frango",
+        "description": "Tacos mexicanos com frango desfiado, abacate e molho de tomate picante.",
+        "image": "1049.jpg",
+        "ingredients": [
+            "Tortilhas de milho",
+            "300g de peito de frango",
+            "1 abacate",
+            "Molho de tomate",
+            "Queijo ralado"
+        ],
+        "steps": [
+            "Preparar o ingrediente principal 5.",
+            "Misturar com o ingrediente secundário 5.",
+            "Adicionar especiaria 5 e tempero 5.",
+            "Cozinhar até ficar pronto."
+        ],
+        "tags": [1, 2],
+        "category": [2],
+        "time": 22,
+        "serves": 2,
+        "difficulty": 3,
+        "rating": 5.0
+    },
+    {
+        "id": 9,
+        "title": "Curry de Grão de Bico",
+        "description": "Um curry indiano rico e aromático com grão de bico, tomate e coentro.",
+        "image": "149.jpg",
+        "ingredients": [
+            "400g de grão de bico",
+            "1 lata de tomate pelado",
+            "1 cebola",
+            "1 colher de chá de garam masala",
+            "Coentro fresco"
+        ],
+        "steps": [
+            "Preparar o ingrediente principal 6.",
+            "Misturar com o ingrediente secundário 6.",
+            "Adicionar especiaria 6 e tempero 6.",
+            "Cozinhar até ficar pronto."
+        ],
+        "tags": [4, 5],
+        "category": [7],
+        "time": 68,
+        "serves": 5,
+        "difficulty": 1,
+        "rating": 3.4
+    },
+    {
+        "id": 10,
+        "title": "Quiche de Espinafre",
+        "description": "Quiche francês com espinafre fresco, queijo gorgonzola e noz-moscada.",
+        "image": "21063.jpg",
+        "ingredients": [
+            "Massa de quiche",
+            "200g de espinafre",
+            "100g de queijo gorgonzola",
+            "3 ovos",
+            "Noz-moscada"
+        ],
+        "steps": [
+            "Preparar o ingrediente principal 7.",
+            "Misturar com o ingrediente secundário 7.",
+            "Adicionar especiaria 7 e tempero 7.",
+            "Cozinhar até ficar pronto."
+        ],
+        "tags": [5, 2],
+        "category": [2],
+        "time": 55,
+        "serves": 4,
+        "difficulty": 3,
+        "rating": 3.7
+    },
+    {
+        "id": 11,
+        "title": "Mousse de Chocolate",
+        "description": "Mousse de chocolate amargo com textura aveludada, servido com chantilly caseiro.",
+        "image": "2250.jpg",
+        "ingredients": [
+            "200g de chocolate amargo",
+            "3 ovos",
+            "1/4 xícara de açúcar",
+            "1 xícara de creme de leite"
+        ],
+        "steps": [
+            "Preparar o ingrediente principal 8.",
+            "Misturar com o ingrediente secundário 8.",
+            "Adicionar especiaria 8 e tempero 8.",
+            "Cozinhar até ficar pronto."
+        ],
+        "tags": [3, 5],
+        "category": [1],
+        "time": 22,
+        "serves": 5,
+        "difficulty": 0,
+        "rating": 3.1
+    },
+    {
+        "id": 12,
+        "title": "Pizza Margherita",
+        "description": "Pizza clássica italiana com molho de tomate, mozzarella fresca e folhas de manjericão.",
+        "image": "13403.jpg",
+        "ingredients": [
+            "Massa de pizza",
+            "Molho de tomate",
+            "Mozzarella fresca",
+            "Folhas de manjericão",
+            "Azeite de oliva"
+        ],
+        "steps": [
+            "Preparar o ingrediente principal 9.",
+            "Misturar com o ingrediente secundário 9.",
+            "Adicionar especiaria 9 e tempero 9.",
+            "Cozinhar até ficar pronto."
+        ],
+        "tags": [4, 1],
+        "category": [7],
+        "time": 57,
+        "serves": 5,
+        "difficulty": 3,
+        "rating": 4.2
+    },
+    {
+        "id": 13,
+        "title": "Bolinho de Bacalhau",
+        "description": "Bolinhos crocantes de bacalhau, perfeitos como aperitivo, acompanhados de molho tártaro.",
+        "image": "125.jpg",
+        "ingredients": [
+            "300g de bacalhau dessalgado",
+            "2 batatas",
+            "1 ovo",
+            "Salsinha",
+            "Óleo para fritar"
+        ],
+        "steps": [
+            "Preparar o ingrediente principal 10.",
+            "Misturar com o ingrediente secundário 10.",
+            "Adicionar especiaria 10 e tempero 10.",
+            "Cozinhar até ficar pronto."
+        ],
+        "tags": [4, 1],
+        "category": [1],
+        "time": 33,
+        "serves": 3,
+        "difficulty": 3,
+        "rating": 5.0
+    },
+    {
+        "id": 14,
+        "title": "Pudim de Leite",
+        "description": "Pudim de leite condensado com uma calda de caramelo suave, um doce clássico e irresistível.",
+        "image": "9956.jpg",
+        "ingredients": [
+            "1 lata de leite condensado",
+            "1 lata de leite (mesma medida)",
+            "3 ovos",
+            "1 xícara de açúcar para o caramelo"
+        ],
+        "steps": [
+            "Preparar o ingrediente principal 11.",
+            "Misturar com o ingrediente secundário 11.",
+            "Adicionar especiaria 11 e tempero 11.",
+            "Cozinhar até ficar pronto."
+        ],
+        "tags": [1, 2],
+        "category": [1],
+        "time": 35,
+        "serves": 5,
+        "difficulty": 0,
+        "rating": 3.2
+    },
+    {
+        "id": 15,
+        "title": "Feijoada Completa",
+        "description": "Tradicional feijoada brasileira, servida com arroz, farofa, couve e laranja.",
+        "image": "1420.jpg",
+        "ingredients": [
+            "500g de feijão preto",
+            "200g de carne seca",
+            "200g de costelinha de porco",
+            "Linguiça calabresa",
+            "Acompanhamentos variados"
+        ],
+        "steps": [
+            "Preparar o ingrediente principal 12.",
+            "Misturar com o ingrediente secundário 12.",
+            "Adicionar especiaria 12 e tempero 12.",
+            "Cozinhar até ficar pronto."
+        ],
+        "tags": [4, 1],
+        "category": [6],
+        "time": 88,
+        "serves": 5,
+        "difficulty": 0,
+        "rating": 4.4
+    },
+    {
+        "id": 16,
+        "title": "Bolo de Cenoura",
+        "description": "Bolo de cenoura úmido com cobertura de chocolate, ideal para o café da tarde.",
+        "image": "916.jpg",
+        "ingredients": [
+            "3 cenouras",
+            "2 xícaras de farinha de trigo",
+            "1 xícara de óleo",
+            "3 ovos",
+            "Cobertura de chocolate"
+        ],
+        "steps": [
+            "Preparar o ingrediente principal 13.",
+            "Misturar com o ingrediente secundário 13.",
+            "Adicionar especiaria 13 e tempero 13.",
+            "Cozinhar até ficar pronto."
+        ],
+        "tags": [5, 2],
+        "category": [5],
+        "time": 34,
+        "serves": 3,
+        "difficulty": 2,
+        "rating": 3.7
+    },
+    {
+        "id": 17,
+        "title": "Gazpacho",
+        "description": "Sopa fria espanhola de tomate, pimentão, pepino e alho, refrescante e saborosa.",
+        "image": "1857.jpg",
+        "ingredients": [
+            "4 tomates",
+            "1 pepino",
+            "1 pimentão verde",
+            "2 dentes de alho",
+            "Vinagre de vinho tinto",
+            "Azeite de oliva"
+        ],
+        "steps": [
+            "Preparar o ingrediente principal 14.",
+            "Misturar com o ingrediente secundário 14.",
+            "Adicionar especiaria 14 e tempero 14.",
+            "Cozinhar até ficar pronto."
+        ],
+        "tags": [3, 2],
+        "category": [1],
+        "time": 56,
+        "serves": 6,
+        "difficulty": 1,
+        "rating": 4.2
+    },
+    {
+        "id": 18,
+        "title": "Pad Thai",
+        "description": "Prato tailandês de noodles com camarão, tofu, amendoim e um toque de limão.",
+        "image": "31708.jpg",
+        "ingredients": [
+            "200g de noodles",
+            "200g de camarão",
+            "1 bloco de tofu",
+            "Amendoim torrado",
+            "Molho de tamarindo"
+        ],
+        "steps": [
+            "Preparar o ingrediente principal 15.",
+            "Misturar com o ingrediente secundário 15.",
+            "Adicionar especiaria 15 e tempero 15.",
+            "Cozinhar até ficar pronto."
+        ],
+        "tags": [2, 1],
+        "category": [2],
+        "time": 20,
+        "serves": 3,
+        "difficulty": 2,
+        "rating": 4.3
+    },
+    {
+        "id": 19,
+        "title": "Lasanha Vegetariana",
+        "description": "Lasanha recheada com abobrinha, berinjela e ricota, coberta com molho de tomate.",
+        "image": "370.jpg",
+        "ingredients": [
+            "Massa de lasanha",
+            "1 abobrinha",
+            "1 berinjela",
+            "250g de ricota",
+            "Molho de tomate"
+        ],
+        "steps": [
+            "Preparar o ingrediente principal 16.",
+            "Misturar com o ingrediente secundário 16.",
+            "Adicionar especiaria 16 e tempero 16.",
+            "Cozinhar até ficar pronto."
+        ],
+        "tags": [5, 1],
+        "category": [3],
+        "time": 32,
+        "serves": 4,
+        "difficulty": 0,
+        "rating": 3.5
+    },
+    {
+        "id": 20,
+        "title": "Ceviche de Peixe",
+        "description": "Ceviche fresco com peixe branco, suco de limão, cebola roxa e coentro.",
+        "image": "17492212.jpg",
+        "ingredients": [
+            "400g de peixe branco",
+            "Suco de 2 limões",
+            "1 cebola roxa",
+            "Coentro",
+            "Pimenta dedo-de-moça"
+        ],
+        "steps": [
+            "Preparar o ingrediente principal 17.",
+            "Misturar com o ingrediente secundário 17.",
+            "Adicionar especiaria 17 e tempero 17.",
+            "Cozinhar até ficar pronto."
+        ],
+        "tags": [3, 5],
+        "category": [6],
+        "time": 16,
+        "serves": 6,
+        "difficulty": 0,
+        "rating": 3.1
+    }
+]

@@ -68,7 +68,7 @@ h4 {
 }
 
 .card {
-    width: calc(33% - var(--spacing));
+    width: calc(33% - var(--spacing) / 2);
     display: flex;
     flex-direction: column;
     margin-bottom: var(--spacing);
