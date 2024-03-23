@@ -31,7 +31,7 @@ h4 {
 .container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .header {
@@ -59,34 +59,4 @@ h4 {
 .main {
     flex: 1;
     padding: var(--spacing);
-}
-
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--spacing);
-}
-
-.card {
-    width: calc(33% - var(--spacing) / 2);
-    display: flex;
-    flex-direction: column;
-    margin-bottom: var(--spacing);
-}
-
-.card:hover {
-    cursor: pointer;
-    color: #000;
-}
-
-.card img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    display: block;
-    border-radius: 4px;
-}
-
-.card img:hover {
-    opacity: 0.9;
 }

@@ -29,7 +29,7 @@
         <h3>{{ recipes.length }} resultados</h3>
         <div class="cards">
             <div class="card" *ngFor="let recipe of recipes | slice:first:(first+rows); let i = index">
-                <img [src]="'assets/' + recipe.image" [alt]="recipe.title">
+                <img [src]="'assets/img/' + recipe.image" [alt]="recipe.title">
                 <h4>
                     {{ recipe.title }}
                 </h4>
