@@ -25,10 +25,10 @@
             }
         </div>
     </section>
-    <main class="main box">
-        <h3>13 resultados</h3>
+    <main class="main box" *ngIf="(recipes$ | async) as recipes">
+        <h3>{{ recipes.length }} resultados</h3>
         <div class="cards">
-            <div class="card" *ngFor="let recipe of recipes$ | async">
+            <div class="card" *ngFor="let recipe of recipes">
                 <img [src]="'assets/' + recipe.image" [alt]="recipe.title">
                 <h4>
                     {{ recipe.title }}
