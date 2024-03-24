@@ -121,7 +121,7 @@
             "Cozinhar até ficar pronto."
         ],
         "tags": [4, 1],
-        "category": [4],
+        "category": [4, 5],
         "time": 27,
         "serves": 4,
         "difficulty": 1,
@@ -147,7 +147,7 @@
             "Cozinhar até ficar pronto."
         ],
         "tags": [2, 4],
-        "category": [1],
+        "category": [4],
         "time": 65,
         "serves": 3,
         "difficulty": 3,
@@ -172,7 +172,7 @@
             "Cozinhar até ficar pronto."
         ],
         "tags": [4, 1],
-        "category": [7],
+        "category": [4],
         "time": 24,
         "serves": 3,
         "difficulty": 3,
@@ -222,7 +222,7 @@
             "Cozinhar até ficar pronto."
         ],
         "tags": [4, 5],
-        "category": [7],
+        "category": [4],
         "time": 68,
         "serves": 5,
         "difficulty": 1,
@@ -247,7 +247,7 @@
             "Cozinhar até ficar pronto."
         ],
         "tags": [5, 2],
-        "category": [2],
+        "category": [4],
         "time": 55,
         "serves": 4,
         "difficulty": 3,
@@ -271,7 +271,7 @@
             "Cozinhar até ficar pronto."
         ],
         "tags": [3, 5],
-        "category": [1],
+        "category": [7],
         "time": 22,
         "serves": 5,
         "difficulty": 0,
@@ -296,7 +296,7 @@
             "Cozinhar até ficar pronto."
         ],
         "tags": [4, 1],
-        "category": [7],
+        "category": [4, 6],
         "time": 57,
         "serves": 5,
         "difficulty": 3,
@@ -321,7 +321,7 @@
             "Cozinhar até ficar pronto."
         ],
         "tags": [4, 1],
-        "category": [1],
+        "category": [3],
         "time": 33,
         "serves": 3,
         "difficulty": 3,
@@ -345,7 +345,7 @@
             "Cozinhar até ficar pronto."
         ],
         "tags": [1, 2],
-        "category": [1],
+        "category": [7],
         "time": 35,
         "serves": 5,
         "difficulty": 0,
@@ -370,7 +370,7 @@
             "Cozinhar até ficar pronto."
         ],
         "tags": [4, 1],
-        "category": [6],
+        "category": [1],
         "time": 88,
         "serves": 5,
         "difficulty": 0,
@@ -395,7 +395,7 @@
             "Cozinhar até ficar pronto."
         ],
         "tags": [5, 2],
-        "category": [5],
+        "category": [7],
         "time": 34,
         "serves": 3,
         "difficulty": 2,
@@ -421,7 +421,7 @@
             "Cozinhar até ficar pronto."
         ],
         "tags": [3, 2],
-        "category": [1],
+        "category": [4],
         "time": 56,
         "serves": 6,
         "difficulty": 1,
@@ -446,7 +446,7 @@
             "Cozinhar até ficar pronto."
         ],
         "tags": [2, 1],
-        "category": [2],
+        "category": [3, 6],
         "time": 20,
         "serves": 3,
         "difficulty": 2,
@@ -471,7 +471,7 @@
             "Cozinhar até ficar pronto."
         ],
         "tags": [5, 1],
-        "category": [3],
+        "category": [4, 6],
         "time": 32,
         "serves": 4,
         "difficulty": 0,
@@ -496,7 +496,7 @@
             "Cozinhar até ficar pronto."
         ],
         "tags": [3, 5],
-        "category": [6],
+        "category": [3],
         "time": 16,
         "serves": 6,
         "difficulty": 0,

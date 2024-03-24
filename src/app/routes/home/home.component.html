@@ -3,29 +3,34 @@
         <app-header />
     </header>
     <section class="sidebar box">
-        <h3>Busca</h3>
-        <p-iconField iconPosition="left">
-            <p-inputIcon styleClass="pi pi-search" />
-            <input type="text" class="input-text" pInputText placeholder="Pesquisar..." />
-        </p-iconField>
+        <form [formGroup]="form">
+            <h3>Busca</h3>
+            <p-iconField iconPosition="left">
+                <p-inputIcon styleClass="pi pi-search" />
+                <input type="text" class="input-text" pInputText placeholder="Pesquisar..." />
+            </p-iconField>
 
-        <p-divider></p-divider>
+            <p-divider></p-divider>
 
-        <h3>Categorias</h3>
-        <div *ngFor="let category of categories$ | async" class="checkbox">
-            <p-checkbox [label]="category.title" name="group" [value]="category.id"></p-checkbox>
-        </div>
+            <h3>Categorias</h3>
+            <div formArrayName="categories">
+                <div *ngFor="let category of categories$ | async; let i = index" class="checkbox">
+                    <p-checkbox [label]="category.title" [formControlName]="i" [value]="category.id">
+                    </p-checkbox>
+                </div>
+            </div>
 
-        <p-divider></p-divider>
+            <p-divider></p-divider>
 
-        <h3>Tags</h3>
-        <div class="tags">
-            @for (tag of tags$ | async; track $index) {
-            <p-toggleButton [onLabel]="tag.title" [offLabel]="tag.title"></p-toggleButton>
-            }
-        </div>
+            <h3>Tags</h3>
+            <div class="tags">
+                @for (tag of tags$ | async; track $index) {
+                <p-toggleButton [onLabel]="tag.title" [offLabel]="tag.title"></p-toggleButton>
+                }
+            </div>
+        </form>
     </section>
-    <main class="main box" *ngIf="(recipes$ | async) as recipes">
+    <main class="main box" *ngIf="(filteredRecipes$ | async) as recipes">
         <h3>{{ recipes.length }} resultados</h3>
         <div class="cards">
             <div class="card" *ngFor="let recipe of recipes | slice:first:(first+rows); let i = index">
