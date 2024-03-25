@@ -7,7 +7,7 @@
             <h3>Busca</h3>
             <p-iconField iconPosition="left">
                 <p-inputIcon styleClass="pi pi-search" />
-                <input type="text" class="input-text" pInputText placeholder="Pesquisar..." />
+                <input type="text" class="input-text" pInputText placeholder="Pesquisar..." formControlName="search" />
             </p-iconField>
 
             <p-divider></p-divider>
@@ -32,20 +32,6 @@
         </form>
     </section>
     <main class="main box" *ngIf="(filteredRecipes$ | async) as recipes">
-        <h3>{{ recipes.length }} resultados</h3>
-        <div class="cards">
-            <div class="card" *ngFor="let recipe of recipes | slice:first:(first+rows); let i = index">
-                <img [src]="'assets/img/' + recipe.image" [alt]="recipe.title">
-                <h4>
-                    {{ recipe.title }}
-                </h4>
-                <p>
-                    {{ recipe.description }}
-                </p>
-            </div>
-            <div class="paginator">
-                <p-paginator locale="pt-BR" (onPageChange)="onPageChange($event)" [first]="first" [rows]="rows" [totalRecords]="recipes.length" [rowsPerPageOptions]="[9, 18, 36]"></p-paginator>
-            </div>
-        </div>
+        <app-recipes [recipes]="recipes" />
     </main>
 </app-category-filter>
