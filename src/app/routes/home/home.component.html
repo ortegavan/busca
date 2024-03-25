@@ -23,10 +23,11 @@
             <p-divider></p-divider>
 
             <h3>Tags</h3>
-            <div class="tags">
-                @for (tag of tags$ | async; track $index) {
-                <p-toggleButton [onLabel]="tag.title" [offLabel]="tag.title"></p-toggleButton>
-                }
+            <div class="tags" formArrayName="tags">
+                <div *ngFor="let tag of tags$ | async; let i = index">
+                    <p-toggleButton [onLabel]="tag.title" [offLabel]="tag.title" [formControlName]="i">
+                    </p-toggleButton>
+                </div>
             </div>
         </form>
     </section>

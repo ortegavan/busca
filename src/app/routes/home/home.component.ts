@@ -16,6 +16,10 @@ import { RecipeService } from '../../services/recipe.service';
 import {
     Observable,
     combineLatest,
+    debounceTime,
+    distinct,
+    distinctUntilChanged,
+    filter,
     map,
     merge,
     startWith,
@@ -93,20 +97,56 @@ export class HomeComponent implements OnInit {
             this.form.setControl('tags', this.fb.array(itemsControls));
         });
 
+        const search$ = this.form.get('search')?.valueChanges.pipe(
+            startWith(''),
+            debounceTime(333),
+            distinctUntilChanged(),
+            filter((value) => value.length >= 2)
+        );
+
+        const others$ = this.form.valueChanges
+            .pipe(
+                startWith(this.form.value),
+                map((value) => {
+                    const { search, ...others } = value;
+                    return others;
+                })
+            )
+            .subscribe((value) => console.log(value));
+
         this.filteredRecipes$ = combineLatest([
             this.form.valueChanges.pipe(startWith(this.form.value)),
             this.recipes$,
+            this.tags$,
         ]).pipe(
-            map(([value, recipes]) => {
+            map(([value, recipes, tags]) => {
                 const selectedCategories = value.categories
                     .flat()
                     .filter((c: number) => c > 0);
 
+                const selectedTags = tags
+                    .filter((tag, index) => value.tags[index])
+                    .map((tag) => tag.id);
+
+                const search = value.search.toLowerCase();
+
                 return recipes.filter(
                     (recipe) =>
-                        selectedCategories.length === 0 ||
-                        recipe.category.some((category) =>
-                            selectedCategories.includes(category)
+                        ((selectedCategories.length === 0 ||
+                            recipe.categories.some((category) =>
+                                selectedCategories.includes(category)
+                            )) &&
+                            (selectedTags.length === 0 ||
+                                recipe.tags.some((tag) =>
+                                    selectedTags.includes(tag)
+                                )) &&
+                            (search.length === 0 ||
+                                recipe.title.toLowerCase().includes(search) ||
+                                recipe.description
+                                    .toLocaleLowerCase()
+                                    .includes(search))) ||
+                        recipe.ingredients.some((ingredient) =>
+                            ingredient.toLowerCase().includes(search)
                         )
                 );
             })

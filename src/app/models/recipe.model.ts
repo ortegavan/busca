@@ -8,7 +8,7 @@ export type Recipe = {
     ingredients: string[];
     steps: string[];
     tags: number[];
-    category: number[];
+    categories: number[];
     time: number;
     serves: number;
     difficulty: Difficulty;
