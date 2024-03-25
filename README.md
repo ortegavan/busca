@@ -1,6 +1,6 @@
 # Busca reativa com Angular + RxJS
 
-[![Love Angular badge](https://img.shields.io/badge/angular-love-blue?logo=angular&angular=love&style=flat-square&color=ff69b4)](https://www.github.com/angular/angular) [![Code style: Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier) [![Made with love](https://img.shields.io/badge/made%20with%20%E2%99%A5%20by-ortegavan-ff69b4.svg?style=flat-square)](https://github.com/ortegavan)
+[![Code style: Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier) [![Made with love](https://img.shields.io/badge/made%20with%20%E2%99%A5%20by-ortegavan-ff69b4.svg?style=flat-square)](https://github.com/ortegavan)
 
 Este repositório contém o código fonte do artigo [Implementando uma busca com filtros em Angular + RxJS](https://medium.com/@ortegavan/implementando-uma-busca-com-filtros-em-angular-rxjs-c1c482f5c710).
 
