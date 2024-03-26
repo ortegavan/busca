@@ -3,33 +3,35 @@
         <app-header />
     </header>
     <section class="sidebar box">
-        <form [formGroup]="form">
-            <h3>Busca</h3>
-            <p-iconField iconPosition="left">
-                <p-inputIcon styleClass="pi pi-search" />
-                <input type="text" class="input-text" pInputText placeholder="Pesquisar..." formControlName="search" />
-            </p-iconField>
+        <div class="sticky">
+            <form [formGroup]="form">
+                <h3>Busca</h3>
+                <p-iconField iconPosition="left">
+                    <p-inputIcon styleClass="pi pi-search" />
+                    <input type="text" class="input-text" pInputText placeholder="Pesquisar..." formControlName="search" />
+                </p-iconField>
 
-            <p-divider></p-divider>
+                <p-divider></p-divider>
 
-            <h3>Categorias</h3>
-            <div formArrayName="categories">
-                <div *ngFor="let category of categories$ | async; let i = index" class="checkbox">
-                    <p-checkbox [label]="category.title" [formControlName]="i" [value]="category.id">
-                    </p-checkbox>
+                <h3>Categorias</h3>
+                <div formArrayName="categories">
+                    <div *ngFor="let category of categories$ | async; let i = index" class="checkbox">
+                        <p-checkbox [label]="category.title" [formControlName]="i" [value]="category.id">
+                        </p-checkbox>
+                    </div>
                 </div>
-            </div>
 
-            <p-divider></p-divider>
+                <p-divider></p-divider>
 
-            <h3>Tags</h3>
-            <div class="tags" formArrayName="tags">
-                <div *ngFor="let tag of tags$ | async; let i = index">
-                    <p-toggleButton [onLabel]="tag.title" [offLabel]="tag.title" [formControlName]="i">
-                    </p-toggleButton>
+                <h3>Tags</h3>
+                <div class="tags" formArrayName="tags">
+                    <div *ngFor="let tag of tags$ | async; let i = index">
+                        <p-toggleButton [onLabel]="tag.title" [offLabel]="tag.title" [formControlName]="i">
+                        </p-toggleButton>
+                    </div>
                 </div>
-            </div>
-        </form>
+            </form>
+        </div>
     </section>
     <main class="main box" *ngIf="(filteredRecipes$ | async) as recipes">
         <app-recipes [recipes]="recipes" />
