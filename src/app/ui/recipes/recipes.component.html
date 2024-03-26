@@ -1,7 +1,7 @@
 <ng-container *ngIf="recipes.length > 0; else empty">
     <h3>{{ recipes.length }} resultado(s).</h3>
     <div class="cards">
-        @for (recipe of recipes; track recipe.id) {
+        @for (recipe of recipes | slice:first:(first+rows); track recipe.id) {
         <app-recipe [recipe]="recipe" class="card" />
         }
         <div class="paginator">
